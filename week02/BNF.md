@@ -6,7 +6,7 @@
 > 尝试自己去看文档来解决
 
 ```text
-<DecimalNumber>::=/-?(0|[1-9][0-9]*)(\.[0-9]*)?/
+<DecimalNumber>::=/^-?(0|[1-9][0-9]*)(\.[0-9]*)?$/
 
 <PrimaryExpression>::=<DecimalNumber>|
     "("<LogicalExpress>")"
